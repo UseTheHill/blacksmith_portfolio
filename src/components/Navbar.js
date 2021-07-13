@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { MdFingerprint } from "react-icons/md";
+import { GiAnvilImpact } from "react-icons/gi";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Button } from "./Button";
 import "./Navbar.css";
@@ -25,7 +25,7 @@ function NavBar() {
       <div className="navbar">
         <div className="navbar-container container">
           <Link to="/" className="navbar-logo">
-            <MdFingerprint className="navbar-icon" />
+            <GiAnvilImpact className="navbar-icon" />
             Blacksmith
           </Link>
           <div className="menu-icon" onClick={handleClick}>
