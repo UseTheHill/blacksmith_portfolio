@@ -1,14 +1,15 @@
-import logo from "./images/anvil.png";
 import "./App.css";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Work in progress...</p>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/' />
+      </Switch>
+    </Router>
   );
 }
 

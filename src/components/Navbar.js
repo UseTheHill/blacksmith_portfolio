@@ -1,15 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { MdFingerprint } from "react-icons/md";
+// import { FaBars, FaTimes } from "react-icons/fa";
 
 function NavBar() {
   return (
     <>
       <div className="navbar">
         <div className="navbar-container container">
-          <link to="/" className="navbar-logo">
+          <Link to="/" className="navbar-logo">
+            <MdFingerprint className="navbar-icon" />
             Blacksmith
-          </link>
+          </Link>
           <div className="menu-icon"></div>
         </div>
       </div>
