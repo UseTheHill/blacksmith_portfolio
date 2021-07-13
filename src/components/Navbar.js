@@ -4,7 +4,7 @@ import { MdFingerprint } from "react-icons/md";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function NavBar() {
-  const [click, setClick ] = useState(false);
+  const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
 
@@ -19,6 +19,7 @@ function NavBar() {
           <div className="menu-icon" onClick={handleClick}>
             {click ? <FaTimes /> : <FaBars />}
           </div>
+          <ul className={click ? "nav-menu active" : "nav-menu"}></ul>
         </div>
       </div>
     </>
