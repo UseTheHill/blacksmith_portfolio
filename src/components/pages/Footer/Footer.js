@@ -94,7 +94,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to={"//www.youtube.com"}
               target="_blank"
               aria-label="Youtube"
             >
@@ -110,7 +110,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to={"//www.linkedin.com/in/kayte-mcdonough-88151a105"}
               target="_blank"
               aria-label="LinkedIn"
             >
