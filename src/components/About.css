@@ -1,4 +1,4 @@
-.pricing__section {
+.about__section {
   padding: 100px 0 160px;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   background: #fafafa;
 }
 
-.pricing__container-card {
+.about__container-card {
   background: linear-gradient(45deg, #1c2237 0%, #6299ac 100%);
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   width: 280px;
@@ -15,40 +15,40 @@
   border-radius: 4px;
 }
 
-.pricing__container-card:nth-child(2) {
+.about__container-card:nth-child(2) {
   transform: scale(1.05);
-  background: #242424;
+  background: linear-gradient(45deg, #242424 0%, #1c2237 100%);
 }
 
-.pricing__container-card:hover {
+.about__container-card:hover {
   transform: scale(1.06);
   transition: all 0.3s ease-out;
   color: #1c2237;
 }
 
-.pricing__container-card:nth-child(2) {
+.about__container-card:nth-child(2) {
   margin: 0 24px;
 }
 
-.pricing__container {
+.about__container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.pricing__wrapper {
+.about__wrapper {
   display: flex;
   flex-direction: column;
   align-items: start;
   margin: 0 auto;
 }
 
-.pricing__heading {
+.about__header {
   color: #1c2237;
   margin-bottom: 24px;
 }
 
-.pricing__container-cardInfo {
+.about__container-cardInfo {
   display: flex;
   flex-direction: column;
   height: 500px;
@@ -57,30 +57,30 @@
   color: #fff;
 }
 
-.pricing__container-cardInfo h3 {
+.about__container-cardInfo h3 {
   margin-bottom: 5px;
   font-size: 24px;
 }
 
-.pricing__container-cardInfo h4 {
+.about__container-cardInfo h4 {
   font-size: 40px;
 }
 
-.pricing__container-cardInfo p {
+.about__container-cardInfo p {
   font-size: 14px;
   margin-bottom: 24px;
 }
 
-.pricing__container-features {
+.about__container-features {
   margin: 16px 0 32px;
   list-style: none;
 }
 
-.pricing__container-features li {
+.about__container-features li {
   margin-bottom: 10px;
 }
 
-.pricing__container-features {
+.about__container-features {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,7 +91,7 @@
 }
 
 @media screen and (max-width: 960px) {
-  .pricing__container {
+  .about__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,24 +99,24 @@
     width: 100%;
   }
 
-  .pricing__container-card {
+  .about__container-card {
     width: 90%;
   }
 
-  .pricing__wrapper {
+  .about__wrapper {
     margin: 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .pricing__container-card:nth-child(2) {
+  .about__container-card:nth-child(2) {
     transform: scale(1);
     background: #242424;
     margin: 24px;
   }
 
-  .pricing__container-card:hover {
+  .about__container-card:hover {
     transform: none;
   }
 }

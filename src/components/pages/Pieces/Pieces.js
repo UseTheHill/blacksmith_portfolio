@@ -1,6 +1,6 @@
 import React from "react";
 import ArtPieces from "../../ArtPieces";
-import { artObjOne, artObjTwo, artObjThree, artObjFour } from "./Data";
+import { artObjOne, artObjTwo, artObjThree, artObjFour, artObjFive, artObjSix } from "./Data";
 
 function Pieces() {
   return (
@@ -9,6 +9,8 @@ function Pieces() {
       <ArtPieces {...artObjTwo} />
       <ArtPieces {...artObjThree} />
       <ArtPieces {...artObjFour} />
+      <ArtPieces {...artObjFive} />
+      <ArtPieces {...artObjSix} />
     </>
   );
 }
