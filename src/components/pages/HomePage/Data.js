@@ -13,34 +13,19 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "Art Pieces",
   headline: "Vessel",
-  description:
-    "This piece was made with metal and other things.",
+  description: "This piece was made with metal and other things.",
   buttonLabel: "Art Pieces",
-  imgStart: "",
+  imgStart: "start",
   img: "images/IMG_1829.jpg",
   alt: "Vault",
 };
 
 export const homeObjThree = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "The Shop",
-  headline: "Slowly but surely building my shop",
-  description:
-    "I Blacksmith in the shop I built in my backyard. Several pieces have been sold in an art gallery in Empire, MI. Always staring new projects when I haven't quite finished the last one.",
-  buttonLabel: "About Me",
-  imgStart: "start",
-  img: "images/tommy_shop.png",
-  alt: "Photo of Tommy",
-};
-
-export const homeObjFour = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -48,8 +33,21 @@ export const homeObjFour = {
   headline: "Slowly but surely building my shop",
   description:
     "I Blacksmith in the shop I built in my backyard. Several pieces have been sold in an art gallery in Empire, MI. Always staring new projects when I haven't quite finished the last one.",
-  buttonLabel: "Sign Up Now",
-  imgStart: "start",
+  buttonLabel: "About Me",
+  imgStart: "",
   img: "images/tommy_shop.png",
+  alt: "Photo of Tommy",
+};
+
+export const homeObjFour = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "About Me",
+  headline: "Tommy McDonough",
+  description: "HVAC Service Tech by Day, Blacksmith by night",
+  buttonLabel: "More About Me",
+  imgStart: "start",
+  img: "images/silly_photo.jpeg",
   alt: "Photo of Tommy",
 };
