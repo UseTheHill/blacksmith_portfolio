@@ -1,10 +1,11 @@
 import React from "react";
-import "./About.css";
+import "./AboutSection.css";
 import { Link } from "react-router-dom";
 import { FaFire, FaSchool, FaGraduationCap } from "react-icons/fa";
 // import { Button } from "./Button";
-
 import { IconContext } from "react-icons/lib";
+
+
 
 function About() {
   return (

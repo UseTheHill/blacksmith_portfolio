@@ -27,7 +27,7 @@ function NavBar() {
       <IconContext.Provider value={{ color: "#fff" }}>
         <div className="navbar">
           <div className="navbar-container container">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <Link to="/"   className="navbar-logo" onClick={closeMobileMenu}>
               <GiAnvilImpact className="navbar-icon" />
               Blacksmith
             </Link>

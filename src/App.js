@@ -6,11 +6,12 @@ import About from "./components/pages/About/About";
 import Pieces from "./components/pages/Pieces/Pieces";
 // import SignUp from "./components/pages/SignUp/SignUp";
 import Footer from "./components/pages/Footer/Footer";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
-  
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />

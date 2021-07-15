@@ -1,12 +1,17 @@
 import React from "react";
-import About from "../../About";
+import AboutSection from "../../AboutSection";
 
-function Services() {
+function About() {
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
   return (
     <>
-      <About />
+      <AboutSection />
     </>
   );
 }
 
-export default Services;
+export default About;
