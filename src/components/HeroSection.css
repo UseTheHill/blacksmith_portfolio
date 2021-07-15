@@ -32,7 +32,7 @@
 }
 
 .top-line {
-  color: #f00946;
+  color: #6299ac;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -74,7 +74,7 @@
   margin-right: 0;
   margin-left: 10px;
   padding-right: 0;
-  border-radius: 10px;
+  border: 1px solid #ddd;
 }
 
 img {

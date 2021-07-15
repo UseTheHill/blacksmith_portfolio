@@ -13,7 +13,7 @@ function Pricing() {
       <div>
         <div className="pricing__section">
           <div className="pricing__wrapper">
-            <h1 className="pricing__header">Pricing</h1>
+            <h1 className="pricing__header">Art Pieces</h1>
             <div className="pricing__container">
               <Link to="/sign-up" className="pricing__container-card">
                 <div className="pricing__container-cardInfo">
@@ -29,7 +29,7 @@ function Pricing() {
                     <li>100 Transactions</li>
                     <li>100 Transactions</li>
                   </ul>
-                  <Button buttonSize="btn--wide" buttonColor="primary">
+                  <Button buttonSize="btn--wide" buttonColor="blue">
                     Choose Plan
                   </Button>
                 </div>
@@ -47,7 +47,7 @@ function Pricing() {
                     <li>200 Transactions</li>
                     <li>200 Transactions</li>
                   </ul>
-                  <Button buttonSize="btn--wide" buttonColor="primary">
+                  <Button buttonSize="btn--wide" buttonColor="green">
                     Choose Plan
                   </Button>
                 </div>
@@ -65,7 +65,7 @@ function Pricing() {
                     <li>500 Transactions</li>
                     <li>500 Transactions</li>
                   </ul>
-                  <Button buttonSize="btn--wide" buttonColor="primary">
+                  <Button buttonSize="btn--wide" buttonColor="blue">
                     Choose Plan
                   </Button>
                 </div>

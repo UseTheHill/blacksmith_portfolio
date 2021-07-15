@@ -57,24 +57,24 @@
 .btn--medium:hover,
 .btn--mobile:hover {
   transition: all 0.3s ease-out;
-  background: #fff;
-  color: #242424;
+  background: #ffe5d4;
+  color: #1c2237;
 }
 
 .btn--wide:hover {
-  color: #fff;
-  background-color: #f00946;
+  color: #1c2237;
+  background-color: #ffe5d4;
   transition: all 0.2s ease-out;
 }
 
 .blue {
-  background-color: #276afb;
+  background-color: #6299ac;
   color: #fff;
   border: none;
 }
 
 .red {
-  background-color: #f00946;
+  background-color: #eba6a9;
   color: #fff;
   border: none;
 }
@@ -89,13 +89,13 @@
   border: none;
 }
 .green {
-  background-color: #25ce4a;
+  background-color: #2a6e63;
   color: #fff;
   border: none;
 }
 
 .green:hover {
-  background-color: #242424;
+  background-color: #91d8b9;
 }
 
 .btn-link {

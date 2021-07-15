@@ -5,24 +5,24 @@ export const homeObjOne = {
   topLine: "Thomas J. McDonough",
   headline: "College for Creative Studies Graduate",
   description:
-    "Blacksmith in the shop I built in my backyard. Several pieces have been sold in an art gallery in Empire, MI. Always staring new projects when I haven't quite finished the last one.",
+    "During my time at CCS I had an apprenticeship under Scott Lankton.  It was an honor to work with such an established blacksmith and am grateful to consider him a friend to this day.",
   buttonLabel: "See my Work",
   imgStart: "",
-  img: "images/tommy_shop.png",
-  alt: "Photo of Tommy",
+  img: "images/ccs_square_logo.jpg",
+  alt: "ccs logo",
 };
 
 export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "100% SECURE",
-  headline: "Stay protected 24/7 anywhere anytime",
+  topLine: "Art Pieces",
+  headline: "Vessel",
   description:
-    "We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
-  buttonLabel: "Learn More",
+    "This piece was made with metal and other things.",
+  buttonLabel: "Art Pieces",
   imgStart: "",
-  img: "images/svg-5.svg",
+  img: "images/IMG_1829.jpg",
   alt: "Vault",
 };
 
@@ -30,26 +30,26 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "EASY SETUP",
-  headline: "Super fast and simple onboarding process",
+  topLine: "The Shop",
+  headline: "Slowly but surely building my shop",
   description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: "Start Now",
+    "I Blacksmith in the shop I built in my backyard. Several pieces have been sold in an art gallery in Empire, MI. Always staring new projects when I haven't quite finished the last one.",
+  buttonLabel: "About Me",
   imgStart: "start",
-  img: "images/svg-7.svg",
-  alt: "Vault",
+  img: "images/tommy_shop.png",
+  alt: "Photo of Tommy",
 };
 
 export const homeObjFour = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "DATA ANALYTICS",
-  headline: "Every transaction is stored on our secure cloud database",
+  topLine: "The Shop",
+  headline: "Slowly but surely building my shop",
   description:
-    "Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.",
+    "I Blacksmith in the shop I built in my backyard. Several pieces have been sold in an art gallery in Empire, MI. Always staring new projects when I haven't quite finished the last one.",
   buttonLabel: "Sign Up Now",
   imgStart: "start",
-  img: "images/svg-8.svg",
-  alt: "Vault",
+  img: "images/tommy_shop.png",
+  alt: "Photo of Tommy",
 };
