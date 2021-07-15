@@ -20,6 +20,7 @@ function Pricing() {
                   <div className="icon">
                     <FaFire />
                   </div>
+
                   <h3>Starter</h3>
                   <h4>$8.99</h4>
                   <p>per month</p>
