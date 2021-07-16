@@ -13,41 +13,41 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "Art Pieces",
-  headline: "Vessel",
-  description: "This piece was made with metal and other things.",
-  buttonLabel: "Art Pieces",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Lake Orion, MI",
+  headline: "The Shop",
+  description: "I Blacksmith in the shop I built in my backyard. Several pieces have been sold in an art gallery in Empire, MI. Always staring new projects when I haven't quite finished the last one.",
+  buttonLabel: "About Me",
   imgStart: "start",
-  img: "images/IMG_1829.jpg",
-  alt: "Vault",
+  img: "images/tommy_shop.png",
+  alt: "Tommy in his shop",
 };
 
 export const homeObjThree = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "The Shop",
-  headline: "Slowly but surely building my shop",
+  topLine: "Sleeping Bear Gallery",
+  headline: "Empire, MI",
   description:
-    "I Blacksmith in the shop I built in my backyard. Several pieces have been sold in an art gallery in Empire, MI. Always staring new projects when I haven't quite finished the last one.",
-  buttonLabel: "About Me",
+    "I have been fortunate enough to have some of my pieces displayed and sold at the Sleeping Bear Gallery. Check them out next time you're in Empire, MI.",
+  buttonLabel: "More Info",
   imgStart: "",
-  img: "images/tommy_shop.png",
-  alt: "Photo of Tommy",
+  img: "images/sleeping_bear_logo.png",
+  alt: "Sleeping Bear Logo",
 };
 
 export const homeObjFour = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "About Me",
-  headline: "Tommy McDonough",
-  description: "HVAC Service Tech by Day, Blacksmith by night",
-  buttonLabel: "More About Me",
+  topLine: "Empire, MI",
+  headline: "Sleeping Bear Gallery",
+  description: "I have been fortunate enough to have some of my pieces displayed and sold at the Sleeping Bear Gallery. Check them out next time you're in Empire, MI.",
+  buttonLabel: "More Info",
   imgStart: "start",
-  img: "images/silly_photo.jpeg",
-  alt: "Photo of Tommy",
+  img: "images/sleeping_bear_logo.png",
+  alt: "Sleeping Bear Logo",
 };

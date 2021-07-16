@@ -2,7 +2,7 @@ import React from "react";
 import "./AboutSection.css";
 import { Link } from "react-router-dom";
 import { FaFire, FaSchool, FaGraduationCap } from "react-icons/fa";
-// import { Button } from "./Button";
+import { Button } from "./Button";
 import { IconContext } from "react-icons/lib";
 
 
@@ -15,7 +15,7 @@ function About() {
           <div className="about__wrapper">
             <h1 className="about__header">About</h1>
             <div className="about__container">
-              <Link to="/sign-up" className="about__container-card">
+              <div className="about__container-card">
                 <div className="about__container-cardInfo">
                   <div className="icon">
                     <FaGraduationCap />
@@ -33,8 +33,8 @@ function About() {
                     Choose Plan
                   </Button> */}
                 </div>
-              </Link>
-              <Link to="/sign-up" className="about__container-card">
+              </div>
+              <div className="about__container-card">
                 <div className="about__container-cardInfo">
                   <div className="icon">
                     <FaFire />
@@ -47,12 +47,14 @@ function About() {
                     <li>Coal Forge</li>
                     <li>Power Hammer</li>
                   </ul>
-                  {/* <Button buttonSize="btn--wide" buttonColor="green">
-                    Choose Plan
-                  </Button> */}
+                  <Link to="/pieces">
+                  <Button buttonSize="btn--wide" buttonColor="blue">
+                  My Work
+                  </Button>
+                  </Link>
                 </div>
-              </Link>
-              <Link to="/sign-up" className="about__container-card">
+              </div>
+              <div className="about__container-card">
                 <div className="about__container-cardInfo">
                   <div className="icon">
                     <FaSchool />
@@ -69,7 +71,7 @@ function About() {
                     Choose Plan
                   </Button> */}
                 </div>
-              </Link>
+              </div>
             </div>
           </div>
         </div>

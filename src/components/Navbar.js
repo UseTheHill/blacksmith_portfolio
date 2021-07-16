@@ -60,19 +60,18 @@ function NavBar() {
               </li>
               <li className="nav-btn">
                 {button ? (
-                  <Link
-                    to="/sign-up"
+                  <a href="mailto:tmcdonough08@gmail.com" 
                     className="btn-link"
                     onClick={closeMobileMenu}
                   >
                     <Button buttonStyle="btn--outline">Connect</Button>
-                  </Link>
+                  </a>
                 ) : (
-                  <Link to="/sign-up" className="btn-link">
+                  <a href="mailto:tmcdonough08@gmail.com" className="btn-link">
                     <Button buttonStyle="btn--outline" buttonSiz="btn--mobile">
                       Connect
                     </Button>
-                  </Link>
+                  </a>
                 )}
               </li>
             </ul>
