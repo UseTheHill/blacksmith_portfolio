@@ -46,14 +46,14 @@ function Footer() {
             <Link to="/">Terms of Service</Link> */}
           </div>
           <div className="footer-link-items">
-            <Link to="mailto:tmcdonough08@gmail.com">
+            <a href="mailto:tmcdonough08@gmail.com">
               <h2>Contact</h2>
-            </Link>
+            </a>
           </div>
           <div className="footer-link-items">
-            <Link to={"//www.youtube.com"}>
+            <a href="//www.youtube.com" target="_blank" rel="noreferrer">
               <h2>Videos</h2>
-            </Link>
+            </a>
           </div>
           <div className="footer-link-items">
             <h2>Social Media</h2>
@@ -90,19 +90,19 @@ function Footer() {
           <div className="social-icons">
             <Link
               className="social-icon-link"
-              to="/"
+              to={"//www.facebook.com/tommy.mcdonough.9"}
               target="_blank"
               aria-label="Facebook"
             >
-              <FaFacebook />
+              <FaFacebook className="iconImg" />
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to={"//www.instagram.com/mcdonoughforge/"}
               target="_blank"
               aria-label="Instagram"
             >
-              <FaInstagram />
+              <FaInstagram className="iconImg" />
             </Link>
             <Link
               className="social-icon-link"
@@ -110,23 +110,23 @@ function Footer() {
               target="_blank"
               aria-label="Youtube"
             >
-              <FaYoutube />
+              <FaYoutube className="iconImg" />
             </Link>
-            <Link
+            {/* <Link
               className="social-icon-link"
               to="/"
               target="_blank"
               aria-label="Twitter"
             >
               <FaTwitter />
-            </Link>
+            </Link> */}
             <Link
               className="social-icon-link"
-              to={"//www.linkedin.com/in/kayte-mcdonough-88151a105"}
+              to={"//www.linkedin.com/in/tom-mcdonough-00460215/"}
               target="_blank"
               aria-label="LinkedIn"
             >
-              <FaLinkedin />
+              <FaLinkedin className="iconImg" />
             </Link>
           </div>
         </div>
