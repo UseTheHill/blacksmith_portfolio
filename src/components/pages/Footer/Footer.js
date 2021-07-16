@@ -36,33 +36,45 @@ function Footer() {
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>About</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
+            <Link to="/about">
+              <h2>About</h2>
+            </Link>
+            {/* <Link to="/about"></Link> */}
+            {/* <Link to="/">Testimonials</Link>
             <Link to="/">Careers</Link>
             <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
+            <Link to="/">Terms of Service</Link> */}
           </div>
           <div className="footer-link-items">
-            <h2>Contact</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
+            <Link to="mailto:tmcdonough08@gmail.com">
+              <h2>Contact</h2>
+            </Link>
           </div>
           <div className="footer-link-items">
-            <h2>Videos</h2>
-            <Link to="/">Submit Video</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
+            <Link to={"//www.youtube.com"}>
+              <h2>Videos</h2>
+            </Link>
           </div>
           <div className="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <a
+              href="//www.instagram.com/mcdonoughforge/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram
+            </a>
+            <a
+              href="//www.facebook.com/tommy.mcdonough.9"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Facebook
+            </a>
+            <a href="//www.youtube.com" target="_blank" rel="noreferrer">
+              YoutTube
+            </a>
+            {/* <Link to="/">Twitter</Link> */}
           </div>
         </div>
       </div>
