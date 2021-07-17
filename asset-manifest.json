@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/blacksmith_portfolio/static/css/main.b01d41d9.chunk.css",
+    "main.js": "/blacksmith_portfolio/static/js/main.55e296d9.chunk.js",
+    "main.js.map": "/blacksmith_portfolio/static/js/main.55e296d9.chunk.js.map",
+    "runtime-main.js": "/blacksmith_portfolio/static/js/runtime-main.a8c3cf40.js",
+    "runtime-main.js.map": "/blacksmith_portfolio/static/js/runtime-main.a8c3cf40.js.map",
+    "static/js/2.840a8e24.chunk.js": "/blacksmith_portfolio/static/js/2.840a8e24.chunk.js",
+    "static/js/2.840a8e24.chunk.js.map": "/blacksmith_portfolio/static/js/2.840a8e24.chunk.js.map",
+    "index.html": "/blacksmith_portfolio/index.html",
+    "static/css/main.b01d41d9.chunk.css.map": "/blacksmith_portfolio/static/css/main.b01d41d9.chunk.css.map",
+    "static/js/2.840a8e24.chunk.js.LICENSE.txt": "/blacksmith_portfolio/static/js/2.840a8e24.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8c3cf40.js",
+    "static/js/2.840a8e24.chunk.js",
+    "static/css/main.b01d41d9.chunk.css",
+    "static/js/main.55e296d9.chunk.js"
+  ]
+}
