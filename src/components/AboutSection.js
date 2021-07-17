@@ -5,8 +5,6 @@ import { FaFire, FaSchool, FaGraduationCap } from "react-icons/fa";
 import { Button } from "./Button";
 import { IconContext } from "react-icons/lib";
 
-
-
 function About() {
   return (
     <IconContext.Provider value={{ color: "#fff", size: "64" }}>
@@ -40,7 +38,7 @@ function About() {
                     <FaFire />
                   </div>
                   <h3>Blacksmith Shop</h3>
-                  <h4></h4>
+
                   <p>Lake Orion, MI</p>
                   <ul className="about__container-features">
                     <li>Gas Forge</li>
@@ -48,9 +46,9 @@ function About() {
                     <li>Power Hammer</li>
                   </ul>
                   <Link to="/pieces">
-                  <Button buttonSize="btn--wide" buttonColor="blue">
-                  My Work
-                  </Button>
+                    <Button buttonSize="btn--wide" buttonColor="blue">
+                      My Work
+                    </Button>
                   </Link>
                 </div>
               </div>
@@ -60,7 +58,7 @@ function About() {
                     <FaSchool />
                   </div>
                   <h3>Teaching</h3>
-                  <h4></h4>
+
                   <p>Rates Available Upon Request</p>
                   <ul className="about__container-features">
                     <li>Blacksmithing 101</li>
