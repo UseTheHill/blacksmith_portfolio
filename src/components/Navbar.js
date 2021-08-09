@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { GiAnvilImpact } from "react-icons/gi";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -27,7 +27,7 @@ function NavBar() {
       <IconContext.Provider value={{ color: "#fff" }}>
         <div className="navbar">
           <div className="navbar-container container">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <Link to="/"   className="navbar-logo" onClick={closeMobileMenu}>
               <GiAnvilImpact className="navbar-icon" />
               Blacksmith
             </Link>
@@ -60,8 +60,7 @@ function NavBar() {
               </li>
               <li className="nav-btn">
                 {button ? (
-                  <a
-                    href="mailto:tmcdonough08@gmail.com"
+                  <a href="mailto:tmcdonough08@gmail.com" 
                     className="btn-link"
                     onClick={closeMobileMenu}
                   >
