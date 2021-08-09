@@ -1,6 +1,6 @@
 {
   "name": "blacksmith_portfolio",
-  "homepage": "http://usethehill.github.io/blacksmith_portfolio/",
+  "homepage": "http://usethehill.github.io/blacksmith_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
