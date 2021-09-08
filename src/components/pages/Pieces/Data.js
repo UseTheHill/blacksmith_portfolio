@@ -7,7 +7,7 @@ export const artObjOne = {
   description:
     "Made this piece from copper and it is in a gallery in Empire, MI.",
   imgStart: "",
-  img: "images/IMG_1840.jpg",
+  img: "/src/images/IMG_1840.jpg",
   alt: "art piece",
 };
 
